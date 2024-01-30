@@ -15,41 +15,13 @@ public class Ponto2D {
     }
     
     public double distancia(Ponto2D a){
-        return Math.abs(Math.sqrt(Math.pow((getX()-a.getX()),2)+Math.pow((getY()-a.getY()),2)));
+        return Math.abs(Math.sqrt(Math.pow((x-a.x),2)+Math.pow((y-a.y),2)));
     }
 
     @Override
     public String toString() {
-        return "Ponto2D[" + getX() + "," + getY() + "]";
+        return "Ponto2D[" + x + "," + y + "]";
     } 
-
-    /**
-     * @return the x
-     */
-    public int getX() {
-        return x;
-    }
-
-    /**
-     * @param x the x to set
-     */
-    public void setX(int x) {
-        this.x = x;
-    }
-
-    /**
-     * @return the y
-     */
-    public int getY() {
-        return y;
-    }
-
-    /**
-     * @param y the y to set
-     */
-    public void setY(int y) {
-        this.y = y;
-    }
     
     
     
