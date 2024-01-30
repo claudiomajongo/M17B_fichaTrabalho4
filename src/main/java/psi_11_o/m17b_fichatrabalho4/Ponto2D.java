@@ -55,7 +55,5 @@ public class Ponto2D {
     public void setY(int y) {
         this.y = y;
     }
-    
-    
-    
 }
+
